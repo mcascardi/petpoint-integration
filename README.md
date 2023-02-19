@@ -7,3 +7,6 @@ Use the Settings -> Petpoint Integrations page to set up the Auth Key you need t
 ```php
 define('PPI_AUTH_KEY', 'paste auth key here');
 ```
+
+### Shortcode usage
+[adoptable-search]
