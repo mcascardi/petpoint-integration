@@ -1,0 +1,10 @@
+/* Admin page CSS */
+
+tr.ppi-authkey {
+    background-color: lightgray;
+    border: solid 2px;
+}
+
+tr.ppi-authkey td {
+    padding: 1rem;
+}

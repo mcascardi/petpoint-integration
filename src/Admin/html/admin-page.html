@@ -1,0 +1,10 @@
+<div class="wrap petpoint-admin">
+    <h1 class="">PetPoint Integration Plugin Settings</h1> <br/>
+    <form method="post" action="options.php">
+	<?php
+        settings_fields('petpoint_settings_group');
+        do_settings_sections('petpoint-settings-admin');
+	submit_button();
+	?>
+    </form>
+</div>

@@ -1,0 +1,27 @@
+/*  Petpoint CSS */
+
+.ppi_adoptable_search {
+    background-color: lightgray;
+    margin: 1rem;
+}
+
+    .ppi_row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+    }
+
+    .ppi_animal_list {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+    }
+
+.ppi_adoptable_search .ppi_animal {
+    margin: 1rem;
+    padding: 1rem;
+    display: inline-block;
+}
+

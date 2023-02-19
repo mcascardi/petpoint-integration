@@ -1,0 +1,20 @@
+{
+    "name": "cascardi-media/petpoint-integration",
+    "description": "",
+    "type": "wordpress-plugin",
+    "require": {},
+    "authors": [
+      {
+        "name": "Matt Cascardi",
+        "email": "mattcascardi@gmail.com"
+      }
+    ],
+    "config": {
+      "vendor-dir": "composer"
+    },
+    "autoload": {
+      "psr-4": {
+          "Petpoint\\": ["src/"]
+      }
+    }
+}
